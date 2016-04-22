@@ -1,0 +1,97 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.page-footer{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	padding-top:0px !important;
+	margin-top: 0px !important; 
+}
+
+#download-button{
+	width: 100%;
+}
+
+.menux{
+	color:black;
+	position: relative;
+	left: -30px;
+}
+.side-nav{
+	z-index: 999;
+}
+
+.drag-target{
+	z-index: 998;
+}
+
+
+.sonofbitch{
+	/*background-color: #FE8619;*/
+	/*opacity: 0.1;*/
+	/*border: 1px dashed #FE8619;*/
+	/*border-radius: 30px;*/
+	position: relative;
+	height: 50px;
+	/*margin-right: -110px !important;*/
+}
+nav .input-field input:focus{
+	background-color: rgba(254,134,25,0.1) !important;
+	/*border-radius: 30px;*/
+}
+
+nav .input-field input[type=text]:{
+	color: black !important;
+}
+
+.searchx{
+	color: #FE8619 !important;
+	opacity: 1 !important;
+}
+
+.biitch{
+	margin-right: -177px;
+}
+
+.sociallady{
+	height: 250px;
+	width: 50px;
+	position: fixed;
+	right: -32px;
+	top: 200px;
+}
+.sociallady img:hover{
+	cursor: pointer; cursor: hand;
+	transform: translateX(-16px); 
+	-moz-transform: translateX(-16px); 
+	-ms-transform: translateX(-16px); 
+	-o-transform: translateX(-16px); 
+}
+
+@media screen and (max-width: 800px) {
+
+.chota{
+	width: 100% !important;
+}
+
+}
+
+footer {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
